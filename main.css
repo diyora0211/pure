@@ -1,0 +1,31 @@
+.box1{
+background-image: linear-gradient(red, black);
+}
+.box2{
+background-image: linear-gradient(to top, blue, black);
+}
+.box3{
+background-image:linear-gradient( to top left, aqua, rgb(0, 0, 0)) ;
+}
+.box4{
+background: repeating-linear-gradient(45deg, blue 10%, #000000 20%);
+}
+
+.box5{
+background: radial-gradient(red 10%, black 10%);
+}
+
+.box6{
+background: repeating-radial-gradient(circle at 100%, red 10px,  #000000 20px) ;
+}
+
+.box7{
+background: repeating-radial-gradient(closest-corner at 10% 30%, #ffea00 10px, #000 20px);
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border : #000000 solid;
+}
